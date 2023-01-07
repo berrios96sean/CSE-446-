@@ -1,3 +1,3 @@
 # CSE 446
 
-* [Week One]()
+* [Week One](https://github.com/berrios96sean/CSE-446-/tree/main/Week_1)
