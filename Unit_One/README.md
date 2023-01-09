@@ -6,6 +6,7 @@
 * Do multiple chose exercises at end of each section 
 
 ### Assignment One 
+* Due Date: Jan 29 
 #### Preparation 
 * Read Textbook chapter 3 and 7 
 * Chapter 3 will have instructions on how to develop a basic three service 
