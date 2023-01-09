@@ -6,9 +6,8 @@
 * Do multiple chose exercises at end of each section 
 
 ### Assignment One 
-[Project Gannt Chart](https://www.canva.com/design/DAFXJTEclgo/view)
-<a href="https://www.example.com">
-  <img src="image.png" alt="Image description" title="Image title" style="width: 200px; height: 100px;" />
+<a href="https://www.canva.com/design/DAFXJTEclgo/2nibBHnJdNs-J4ttyPIymQ/edit">
+  <img src="./chart.png" alt="Project Gant Chart" title="Project Gant Chart" style="width: 700px; height: 500px;" />
 </a>
 
 * Due Date: Jan 29 
