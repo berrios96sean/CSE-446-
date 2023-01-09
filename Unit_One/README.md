@@ -14,3 +14,7 @@
 * Follow text section 7.1.1 and repeat the development process of the console app 
 * Follow text sections 7.3.3 and 7.3.4 and repeat development process of the RESTful services 
 * Follow the text sections 7.3.5 and repeat the development process of the clients that consume the RESTful service 
+
+#### Assignment Description and TO DOS: 
+* Create a number guessing game using WCF Services and displaying the game in a GUI on a IIS Server 
+* PDF mentions reviewing section 3.2 of the textbook before completing the assignment 
