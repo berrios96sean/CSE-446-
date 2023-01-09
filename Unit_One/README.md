@@ -6,7 +6,7 @@
 * Do multiple chose exercises at end of each section 
 
 ### Assignment One 
-https://www.canva.com/design/DAFXJTEclgo/view
+[Project Gannt Chart](https://www.canva.com/design/DAFXJTEclgo/view)
 * Due Date: Jan 29 
 #### Preparation 
 * Read Textbook chapter 3 and 7 
