@@ -8,7 +8,7 @@
 ### Assignment One 
 [Project Gannt Chart](https://www.canva.com/design/DAFXJTEclgo/view)
 <a href="https://www.example.com">
-  <img src="image.png" alt="Image description" title="Image title" style="width: 200px; height: 100px;" />
+  <img src="./chart.png" alt="Image description" title="Image title" style="width: 200px; height: 100px;" />
 </a>
 
 * Due Date: Jan 29 
