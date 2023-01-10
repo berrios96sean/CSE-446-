@@ -1,0 +1,7 @@
+// Service Standards and Service Development 
+
+Three levels of a System 
+    - Architecture -- Overall orginization
+    - Interfaces -- I/O 
+    - Behaviours -- Declarative or Procedural relationship between I/O 
+    
