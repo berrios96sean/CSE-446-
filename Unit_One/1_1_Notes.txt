@@ -12,4 +12,11 @@ Three levels of a System
     operational software.
     - Sevice Oriented Computing (SOC): refers to the paradigm that represents computation in SOA. SOC concerns 
     interface and behavior, including communication protocols, algorithms, and data representations.
-    
+    - NOTE: SOA and SOC can be used alternatively if the entire system is concerned, without specifically referring to architecture, 
+    interface, or behavior.
+    - Service Oriented Development (SOD):  concerns the entire software development life cycle based on SOA concepts and SOC paradigm. 
+     involves current technologies and tools to effectively produce operational software:
+     Programming language features, 
+     Development environments: VS, Java EE, WebSphere;
+     Standards and Interfaces with components, services, and data sources;
+     Deployment and hosting environment: Self-Hosting, Servers, AWS hosting, Cloud Infrastructure, such as Google App Engine, MS Azure, etc.
