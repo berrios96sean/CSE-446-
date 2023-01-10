@@ -20,3 +20,12 @@ Three levels of a System
      Development environments: VS, Java EE, WebSphere;
      Standards and Interfaces with components, services, and data sources;
      Deployment and hosting environment: Self-Hosting, Servers, AWS hosting, Cloud Infrastructure, such as Google App Engine, MS Azure, etc.
+
+// Web Services 
+    - interface that describes a collection of operations (Web methods) that are Web-accessible through standardized XML messaging
+     WSDL (Web Service Description Language) is used to describe the interface;
+     SOAP (Simple Object Access Protocol) is used to exchange messages between services and between the applications and services;
+     SOAP is typically on HTTP (others are possible)
+     UDDI and ebXML are used for service registration/publishing
+    XML: Is a format of data/i/o representation that can be used by almost all services 
+    -- NOTE: A web service that uses both SOAP and WSDL is call a SOAP Service 
