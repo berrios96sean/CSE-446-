@@ -4,4 +4,12 @@ Three levels of a System
     - Architecture -- Overall orginization
     - Interfaces -- I/O 
     - Behaviours -- Declarative or Procedural relationship between I/O 
+
+// Some Vocab 
+    - Service Orientation (SO): Includes all Service Oriented approaches SOA, SOC, SOD 
+    - Service Oriented Architecture (SOA): Software consisting of a collection of loosely coupled and platform-
+    independent services that interact with each other through standard interfaces. SOA does not concern developing 
+    operational software.
+    - Sevice Oriented Computing (SOC): refers to the paradigm that represents computation in SOA. SOC concerns 
+    interface and behavior, including communication protocols, algorithms, and data representations.
     
