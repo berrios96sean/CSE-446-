@@ -33,3 +33,11 @@
      WCF endpoint contains ABC: Address (where), Binding (how), Contract (What) 
      Different development tools (.asmx, .svc, and others) have different structures, but contain the same basic information 
      All are coded in WSDL
+
+// Exersice to Develop a basic WCF service and clients 
+    - Chapter 3 Section 3.2.1 PowerPoint slides 9 - 17 
+     Developing a Service using WCF tools (Review)
+     Developing a WCF service using template
+     Hosting the service using IIS Express Server
+     Developing a console application to consume the WCF service
+     Developing WCF Service with Self-Hosting
