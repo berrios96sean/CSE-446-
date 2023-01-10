@@ -1,1 +1,12 @@
 // Raw Services and Self Hosting 
+
+// Service/ Application Development Environments 
+     ASP.NET and Windows Communication Foundation (WCF) (Text Chapter 3)
+     Workflow Foundation (Text Chapter 7)
+     Oracle SOA Suite/ JDeveloper (Text Chapter 8)
+     Java-based SOA Development: Netbeans, Eclipse/Axis/Tomcat
+     JAX-RPC 1.1 API
+     J2EE
+     BEA WebLogic
+     IBM WebSphere
+     SAP Enterprise Service Architecture (ESA) Development Framework
