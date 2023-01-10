@@ -26,3 +26,4 @@
      ASP .Net Website (Web application) / HTML5 Website
      Workflow Foundation
      BPEL, and many others
+    -- NOTE: Section 3.1 of textbook has more information on the interface between client and service 
