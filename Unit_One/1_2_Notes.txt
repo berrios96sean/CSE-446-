@@ -41,3 +41,6 @@
      Hosting the service using IIS Express Server
      Developing a console application to consume the WCF service
      Developing WCF Service with Self-Hosting
+
+// NOTES 
+    - A service contract referers to the interface
