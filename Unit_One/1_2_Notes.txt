@@ -27,3 +27,9 @@
      Workflow Foundation
      BPEL, and many others
     -- NOTE: Section 3.1 of textbook has more information on the interface between client and service 
+    
+// Endpoints coded in WSDL 
+     An ASP .Net endpoint is the port to the method exposed through a markup of contract in program
+     WCF endpoint contains ABC: Address (where), Binding (how), Contract (What) 
+     Different development tools (.asmx, .svc, and others) have different structures, but contain the same basic information 
+     All are coded in WSDL
