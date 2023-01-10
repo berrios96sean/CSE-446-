@@ -10,3 +10,19 @@
      BEA WebLogic
      IBM WebSphere
      SAP Enterprise Service Architecture (ESA) Development Framework
+
+// WCF Service Development and Consuming 
+     ASP .Net is a component in Visual Studio for service and application development.     
+     It can be used for service development (.asmx service)
+     It is mainly used for application development
+     WCF is a component in Visual Studio
+     WCF is used for service development only (.svc service)
+     It is used for developing SOAP as well as RESTful services
+     WCF service hosting: with or without IIS
+     Service Interfaces: Both .asmx and .svc services use WSDL
+     WCF service consuming
+     Console application 
+     ASP .Net Windows forms application (Desktop application)
+     ASP .Net Website (Web application) / HTML5 Website
+     Workflow Foundation
+     BPEL, and many others
