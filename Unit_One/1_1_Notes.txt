@@ -29,3 +29,13 @@ Three levels of a System
      UDDI and ebXML are used for service registration/publishing
     XML: Is a format of data/i/o representation that can be used by almost all services 
     -- NOTE: A web service that uses both SOAP and WSDL is call a SOAP Service 
+
+// RESTful Services 
+     REST: Representational State Transfer
+     A RESTful service is an interface that describes a collection of resources that are Web-accessible through standardized resource representations
+     URI (Uniformed Resource Identifier) is used to access the resource under the Web;
+     HTTP (Hypertext Transport Protocol) is used to exchange messages between services and between the applications and services;
+     RESTful services use one layer of protocol less (without SOAP), and HTTP is even more widely used.
+     RESTful services use multiple resource representation languages for representing input and output data:
+     XML, HTML, XHTML, RSS Feed, Atom Feed, JSON
+     Does not deal with object types, and less related to OO
