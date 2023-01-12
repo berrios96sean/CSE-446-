@@ -14,12 +14,13 @@ namespace WcfService1
     {
 
         [OperationContract]
-        string GetData(int value);
+        string Hello();
 
         [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
+        double PiValue();
 
-        // TODO: Add your service operations here
+        [OperationContract]
+        int absValue(int intVal);
     }
 
 
