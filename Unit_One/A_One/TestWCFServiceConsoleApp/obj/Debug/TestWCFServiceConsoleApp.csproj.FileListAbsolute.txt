@@ -1,0 +1,7 @@
+C:\Repos\CSE-446-\Unit_One\A_One\TestWCFServiceConsoleApp\bin\Debug\TestWCFServiceConsoleApp.exe.config
+C:\Repos\CSE-446-\Unit_One\A_One\TestWCFServiceConsoleApp\bin\Debug\TestWCFServiceConsoleApp.exe
+C:\Repos\CSE-446-\Unit_One\A_One\TestWCFServiceConsoleApp\bin\Debug\TestWCFServiceConsoleApp.pdb
+C:\Repos\CSE-446-\Unit_One\A_One\TestWCFServiceConsoleApp\obj\Debug\TestWCFServiceConsoleApp.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Unit_One\A_One\TestWCFServiceConsoleApp\obj\Debug\TestWCFServiceConsoleApp.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Unit_One\A_One\TestWCFServiceConsoleApp\obj\Debug\TestWCFServiceConsoleApp.exe
+C:\Repos\CSE-446-\Unit_One\A_One\TestWCFServiceConsoleApp\obj\Debug\TestWCFServiceConsoleApp.pdb
