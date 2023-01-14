@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_One_Berrios_Sean", "A_One_Berrios_Sean.csproj", "{73346353-3C58-4E94-AD7A-0511493F3689}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "secNumGUI", "..\secNumGUI\secNumGUI.csproj", "{415ECE9E-9B8E-422F-8F47-6D961761CDFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73346353-3C58-4E94-AD7A-0511493F3689} = {73346353-3C58-4E94-AD7A-0511493F3689}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

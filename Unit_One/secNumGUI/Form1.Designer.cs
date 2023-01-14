@@ -112,6 +112,7 @@ namespace secNumGUI
             this.button1.TabIndex = 7;
             this.button1.Text = "Play";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -124,6 +125,7 @@ namespace secNumGUI
             this.button2.TabIndex = 8;
             this.button2.Text = "Generate a Secret Number";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
