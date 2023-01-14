@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_One_Berrios_Sean", "A_One
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "secNumGUI", "secNumGUI\secNumGUI.csproj", "{415ECE9E-9B8E-422F-8F47-6D961761CDFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "selfHostingService", "selfHostingService\selfHostingService.csproj", "{4D66A680-B7C3-4199-BA6E-4939D4F95634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "selfHostingClient", "selfHostingClient\selfHostingClient.csproj", "{68F225D7-C84B-46B8-8F55-D0BF8718D7F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{415ECE9E-9B8E-422F-8F47-6D961761CDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{415ECE9E-9B8E-422F-8F47-6D961761CDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{415ECE9E-9B8E-422F-8F47-6D961761CDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D66A680-B7C3-4199-BA6E-4939D4F95634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D66A680-B7C3-4199-BA6E-4939D4F95634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D66A680-B7C3-4199-BA6E-4939D4F95634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D66A680-B7C3-4199-BA6E-4939D4F95634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F225D7-C84B-46B8-8F55-D0BF8718D7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F225D7-C84B-46B8-8F55-D0BF8718D7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F225D7-C84B-46B8-8F55-D0BF8718D7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F225D7-C84B-46B8-8F55-D0BF8718D7F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
