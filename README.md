@@ -10,7 +10,7 @@
 * [Unit One](https://github.com/berrios96sean/CSE-446-/tree/main/Unit_One)
 
 ## Assignments 
-[Assignment One]()<br/>
+* [Assignment One](https://github.com/berrios96sean/CSE-446-/tree/main/Unit_One/A_One_Berrios_Sean)<br/>
 
 ## All Lecture Notes
 * [Lecture One](https://github.com/berrios96sean/CSE-446-/blob/main/Unit_One/1_1_Notes.txt)<br/>
