@@ -1,0 +1,10 @@
+C:\Repos\CSE-446-\Unit_One\secNumGUI\bin\Debug\secNumGUI.exe.config
+C:\Repos\CSE-446-\Unit_One\secNumGUI\bin\Debug\secNumGUI.exe
+C:\Repos\CSE-446-\Unit_One\secNumGUI\bin\Debug\secNumGUI.pdb
+C:\Repos\CSE-446-\Unit_One\secNumGUI\obj\Debug\secNumGUI.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Unit_One\secNumGUI\obj\Debug\secNumGUI.Form1.resources
+C:\Repos\CSE-446-\Unit_One\secNumGUI\obj\Debug\secNumGUI.Properties.Resources.resources
+C:\Repos\CSE-446-\Unit_One\secNumGUI\obj\Debug\secNumGUI.csproj.GenerateResource.cache
+C:\Repos\CSE-446-\Unit_One\secNumGUI\obj\Debug\secNumGUI.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Unit_One\secNumGUI\obj\Debug\secNumGUI.exe
+C:\Repos\CSE-446-\Unit_One\secNumGUI\obj\Debug\secNumGUI.pdb
