@@ -8,11 +8,24 @@ namespace selfHostingClient
 {
     class Program
     {
+        static myInterfaceClient myPxy = new myInterfaceClient();
+        static int attempts; 
         static void Main(string[] args)
         {
-            myInterfaceClient myPxy = new myInterfaceClient();
+           
             int num = myPxy.SecretNumber(1, 10);
             Console.WriteLine("Secret number is {0}", num);
+        }
+
+        public static string makeGuess()
+        {
+            return "";
+        }
+
+        public static string checkGuess()
+        {
+            
+            return ""; 
         }
     }
 }
