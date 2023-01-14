@@ -10,24 +10,26 @@ namespace A_One_Berrios_Sean
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
-    public class Service1 : IService1
+    public class Service1: IService1
     {
-        public string GetData(int value)
-        {
-            return string.Format("You entered: {0}", value);
-        }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
-        {
-            if (composite == null)
+            public int SecretNumber(int lower, int upper)
             {
-                throw new ArgumentNullException("composite");
+                DateTime currentDate = DateTime.Now;
+                int seed = (int)currentDate.Ticks;
+                Random random = new Random(seed);
+                int sNumber = random.Next(lower, upper);
+                return sNumber;
             }
-            if (composite.BoolValue)
+            public string checkNumber(int userNum, int SecretNum)
             {
-                composite.StringValue += "Suffix";
+                if (userNum == SecretNum)
+                    return "correct";
+                else
+                if (userNum > SecretNum)
+                    return "too big";
+                else return "too small";
             }
-            return composite;
-        }
+        
     }
 }

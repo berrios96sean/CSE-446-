@@ -1,0 +1,6 @@
+C:\Repos\CSE-446-\Unit_One\A_One_Berrios_Sean\bin\A_One_Berrios_Sean.dll.config
+C:\Repos\CSE-446-\Unit_One\A_One_Berrios_Sean\bin\A_One_Berrios_Sean.dll
+C:\Repos\CSE-446-\Unit_One\A_One_Berrios_Sean\bin\A_One_Berrios_Sean.pdb
+C:\Repos\CSE-446-\Unit_One\A_One_Berrios_Sean\obj\Debug\A_One_Berrios_Sean.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Unit_One\A_One_Berrios_Sean\obj\Debug\A_One_Berrios_Sean.dll
+C:\Repos\CSE-446-\Unit_One\A_One_Berrios_Sean\obj\Debug\A_One_Berrios_Sean.pdb
