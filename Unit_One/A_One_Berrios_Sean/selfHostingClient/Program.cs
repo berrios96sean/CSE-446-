@@ -12,14 +12,17 @@ namespace selfHostingClient
         static int attempts; 
         static void Main(string[] args)
         {
-           
-            int num = myPxy.SecretNumber(1, 10);
-            Console.WriteLine("Secret number is {0}", num);
+
+            //int num = myPxy.SecretNumber(1, 10);
+            int num = makeGuess(); 
+            Console.WriteLine("Guess is {0}", num);
         }
 
-        public static string makeGuess()
+        public static int makeGuess()
         {
-            return "";
+            Console.WriteLine("Please enter a guess");
+            int guess = Int32.Parse(Console.ReadLine()); 
+            return guess;
         }
 
         public static string checkGuess()
