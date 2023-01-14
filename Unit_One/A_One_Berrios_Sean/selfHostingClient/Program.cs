@@ -10,6 +10,7 @@ namespace selfHostingClient
     {
         static void Main(string[] args)
         {
+            myInterfaceClient myPxy = new myInterfaceClient(); 
         }
     }
 }
