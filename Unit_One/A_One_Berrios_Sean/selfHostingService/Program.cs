@@ -1,15 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ServiceModel;
+using System.ServiceModel.Description;
 
 namespace selfHostingService
 {
-    class Program
+    [ServiceContract]
+    public interface myInterface
     {
-        static void Main(string[] args)
+        [OperationContract]
+        double PiValue();
+
+        [OperationContract]
+        int absValue(int intVal);
+    }
+
+    public class myService : myInterface
+    {
+        public double PiValue()
         {
+            double pi = System.Math.PI;
+            return (pi);
+        }
+
+        public int absValue(int x)
+        {
+            if (x >= 0) return (x);
+            else return (-x); 
         }
     }
 }
