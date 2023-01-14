@@ -10,7 +10,9 @@ namespace selfHostingClient
     {
         static void Main(string[] args)
         {
-            myInterfaceClient myPxy = new myInterfaceClient(); 
+            myInterfaceClient myPxy = new myInterfaceClient();
+            int num = myPxy.SecretNumber(1, 10);
+            Console.WriteLine("Secret number is {0}", num);
         }
     }
 }
