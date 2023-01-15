@@ -1,0 +1,9 @@
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\bin\Debug\WcfClient.exe.config
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\bin\Debug\WcfClient.exe
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\bin\Debug\WcfClient.pdb
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\obj\Debug\WcfClient.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\obj\Debug\WcfClient.Properties.Resources.resources
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\obj\Debug\WcfClient.csproj.GenerateResource.cache
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\obj\Debug\WcfClient.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\obj\Debug\WcfClient.exe
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\WcfService\WcfClient\obj\Debug\WcfClient.pdb
