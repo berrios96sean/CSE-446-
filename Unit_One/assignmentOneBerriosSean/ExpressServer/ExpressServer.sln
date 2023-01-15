@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A_One_Berrios_Sean", "..\..\A_One_Berrios_Sean\A_One_Berrios_Sean.csproj", "{73346353-3C58-4E94-AD7A-0511493F3689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "secNumGUI", "..\..\A_One_Berrios_Sean\secNumGUI\secNumGUI.csproj", "{415ECE9E-9B8E-422F-8F47-6D961761CDFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73346353-3C58-4E94-AD7A-0511493F3689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73346353-3C58-4E94-AD7A-0511493F3689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73346353-3C58-4E94-AD7A-0511493F3689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73346353-3C58-4E94-AD7A-0511493F3689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415ECE9E-9B8E-422F-8F47-6D961761CDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415ECE9E-9B8E-422F-8F47-6D961761CDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415ECE9E-9B8E-422F-8F47-6D961761CDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415ECE9E-9B8E-422F-8F47-6D961761CDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88971BB0-28F9-4552-A8BE-9FDDF8188E13}
+	EndGlobalSection
+EndGlobal
