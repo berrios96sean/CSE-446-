@@ -13,23 +13,27 @@ namespace selfHostingClient
         static bool gameOver = false; 
         static void Main(string[] args)
         {
-            if (gameOver == false)
+            while (true)
             {
-                playGame();
-            }
-            else
-            {
-                Console.WriteLine("If you would like to play the game again press <y>");
-                if (Console.ReadLine() == "y")
+                if (gameOver == false)
                 {
                     playGame();
                 }
                 else
                 {
-
+                    Console.WriteLine("If you would like to play the game again press <y>");
+                    if (Console.ReadLine() == "y")
+                    {
+                        playGame();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
+
             }
-            
+
         }
 
         public static int makeGuess()
