@@ -9,12 +9,27 @@ namespace selfHostingClient
     class Program
     {
         static myInterfaceClient myPxy = new myInterfaceClient();
-        static int attempts;
+        static int attempts = 0;
         static bool gameOver = false; 
         static void Main(string[] args)
         {
+            if (gameOver == false)
+            {
+                playGame();
+            }
+            else
+            {
+                Console.WriteLine("If you would like to play the game again press <y>");
+                if (Console.ReadLine() == "y")
+                {
+                    playGame();
+                }
+                else
+                {
 
-            playGame();
+                }
+            }
+            
         }
 
         public static int makeGuess()
@@ -46,7 +61,9 @@ namespace selfHostingClient
                 int guess = makeGuess();
                 res = checkGuess(guess, num);
                 Console.WriteLine(res);
+                attempts++;
             }
+            gameOver = true; 
 
         }
     }
