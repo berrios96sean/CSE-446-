@@ -13,9 +13,7 @@ namespace selfHostingClient
         static void Main(string[] args)
         {
 
-            //int num = myPxy.SecretNumber(1, 10);
-            int num = makeGuess(); 
-            Console.WriteLine("Guess is {0}", num);
+            playGame();
         }
 
         public static int makeGuess()
@@ -29,6 +27,16 @@ namespace selfHostingClient
         {
             
             return ""; 
+        }
+
+        public static void playGame()
+        {
+            Console.WriteLine("Welcome To Number Guessing Game");
+            Console.WriteLine("Enter Lower Limit: ");
+            int lower = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Upper Limit: ");
+            int upper = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Upper = {0} \n Lower = {1}",upper,lower);
         }
     }
 }
