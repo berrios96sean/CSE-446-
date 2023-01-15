@@ -10,7 +10,8 @@ namespace selfHostingClient
     {
         static myInterfaceClient myPxy = new myInterfaceClient();
         static int attempts = 0;
-        static bool gameOver = false; 
+        static bool gameOver = false;
+        static int gamesPlayed = 0; 
         static void Main(string[] args)
         {
             while (true)
@@ -52,8 +53,9 @@ namespace selfHostingClient
 
         public static void playGame()
         {
-
+            Console.WriteLine("*********************************************");
             Console.WriteLine("Welcome To Number Guessing Game");
+            Console.WriteLine("Total Games Played = {0}", gamesPlayed);
             Console.WriteLine("Enter Lower Limit: ");
             int lower = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Enter Upper Limit: ");
@@ -62,13 +64,20 @@ namespace selfHostingClient
             string res = ""; 
             while (res != "correct")
             {
+                Console.WriteLine("*********************************************");
+                attempts++;
+                Console.WriteLine("Attempt: {0}", attempts);
                 int guess = makeGuess();
                 res = checkGuess(guess, num);
                 Console.WriteLine(res);
-                attempts++;
+                Console.WriteLine("*********************************************");
             }
-            gameOver = true; 
 
+            gamesPlayed++;
+            gameOver = true;
+
+            attempts = 0;
+            
         }
     }
 }
