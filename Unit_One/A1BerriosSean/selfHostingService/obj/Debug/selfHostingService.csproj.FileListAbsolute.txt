@@ -1,0 +1,7 @@
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\selfHostingService\bin\Debug\selfHostingService.exe.config
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\selfHostingService\bin\Debug\selfHostingService.exe
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\selfHostingService\bin\Debug\selfHostingService.pdb
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\selfHostingService\obj\Debug\selfHostingService.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\selfHostingService\obj\Debug\selfHostingService.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\selfHostingService\obj\Debug\selfHostingService.exe
+C:\Repos\CSE-446-\Unit_One\A1BerriosSean\selfHostingService\obj\Debug\selfHostingService.pdb
