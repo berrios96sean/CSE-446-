@@ -1,0 +1,7 @@
+C:\Repos\CSE-446-\Unit_Two\A2Practice\RestServicePractice\bin\RestServicePractice.dll.config
+C:\Repos\CSE-446-\Unit_Two\A2Practice\RestServicePractice\bin\RestServicePractice.dll
+C:\Repos\CSE-446-\Unit_Two\A2Practice\RestServicePractice\bin\RestServicePractice.pdb
+C:\Repos\CSE-446-\Unit_Two\A2Practice\RestServicePractice\obj\Debug\RestServicePractice.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Unit_Two\A2Practice\RestServicePractice\obj\Debug\RestServicePractice.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Unit_Two\A2Practice\RestServicePractice\obj\Debug\RestServicePractice.dll
+C:\Repos\CSE-446-\Unit_Two\A2Practice\RestServicePractice\obj\Debug\RestServicePractice.pdb
