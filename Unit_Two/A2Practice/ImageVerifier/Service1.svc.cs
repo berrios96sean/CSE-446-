@@ -26,7 +26,6 @@ namespace ImageVerifier
             DataContractSerializer obj = new DataContractSerializer(typeof(string));
             string randString = obj.ReadObject(strm).ToString();
             return randString; 
-
         }
 
         public Stream GetImage(string myString)
