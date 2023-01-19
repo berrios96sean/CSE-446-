@@ -1,10 +1,13 @@
 ﻿using System;
+using System.IO; 
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Drawing;
+using System.Net; 
 
 namespace ImageVerifier
 {
@@ -12,22 +15,24 @@ namespace ImageVerifier
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-        public string GetData(int value)
+        public string GetVerifierString(string myLength)
         {
-            return string.Format("You entered: {0}", value);
+            Uri baseUri = new Uri("http://venus.sod.asu.edu/WSRepository/Services/RandomString/Service.svc");
+            UriTemplate myTemplate = new UriTemplate("GetRandomString/{Length}");
+            Uri completeUri = myTemplate.BindByPosition(baseUri, myLength);
+            WebClient proxy = new WebClient();
+            byte[] abc = proxy.DownloadData(completeUri);
+            Stream strm = new MemoryStream(abc);
+            DataContractSerializer obj = new DataContractSerializer(typeof(string));
+            string randString = obj.ReadObject(strm).ToString();
+            return randString; 
+
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+        public Stream GetImage(string myString)
         {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
+
         }
+        
     }
 }
