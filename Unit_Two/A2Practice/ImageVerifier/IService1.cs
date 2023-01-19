@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO; 
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -17,6 +18,12 @@ namespace ImageVerifier
 
         [WebGet(UriTemplate = "/GetRandomString/{Length}", RequestFormat = WebMessageFormat.Xml, ResponseFormat = WebMessageFormat.Xml, BodyStyle = WebMessageBodyStyle.Bare)]
         string GetRandomString(string Length);
+
+        [WebGet(UriTemplate = "/GetVerifierString/{myLength}", RequestFormat = WebMessageFormat.Xml, ResponseFormat = WebMessageFormat.Xml, BodyStyle = WebMessageBodyStyle.Bare)]
+        string GetVerifierString(string myLength);
+
+        [WebGet(UriTemplate = "/GetImage/{myString}", RequestFormat = WebMessageFormat.Xml, ResponseFormat = WebMessageFormat.Xml, BodyStyle = WebMessageBodyStyle.Bare)]
+        Stream GetImage(string myString);
     }
 
 
