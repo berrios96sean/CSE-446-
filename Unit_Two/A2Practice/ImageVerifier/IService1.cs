@@ -13,12 +13,6 @@ namespace ImageVerifier
     [ServiceContract]
     public interface IService1
     {
-        [WebGet(UriTemplate = "/GetRandomString", RequestFormat = WebMessageFormat.Xml, ResponseFormat = WebMessageFormat.Xml, BodyStyle = WebMessageBodyStyle.Bare)]
-        string GetRandomString0();
-
-        [WebGet(UriTemplate = "/GetRandomString/{Length}", RequestFormat = WebMessageFormat.Xml, ResponseFormat = WebMessageFormat.Xml, BodyStyle = WebMessageBodyStyle.Bare)]
-        string GetRandomString(string Length);
-
         [WebGet(UriTemplate = "/GetVerifierString/{myLength}", RequestFormat = WebMessageFormat.Xml, ResponseFormat = WebMessageFormat.Xml, BodyStyle = WebMessageBodyStyle.Bare)]
         string GetVerifierString(string myLength);
 
