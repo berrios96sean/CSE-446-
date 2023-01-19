@@ -1,0 +1,7 @@
+C:\Repos\CSE-446-\Unit_Two\A2Practice\ImageVerifier\bin\ImageVerifier.dll.config
+C:\Repos\CSE-446-\Unit_Two\A2Practice\ImageVerifier\bin\ImageVerifier.dll
+C:\Repos\CSE-446-\Unit_Two\A2Practice\ImageVerifier\bin\ImageVerifier.pdb
+C:\Repos\CSE-446-\Unit_Two\A2Practice\ImageVerifier\obj\Debug\ImageVerifier.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Unit_Two\A2Practice\ImageVerifier\obj\Debug\ImageVerifier.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Unit_Two\A2Practice\ImageVerifier\obj\Debug\ImageVerifier.dll
+C:\Repos\CSE-446-\Unit_Two\A2Practice\ImageVerifier\obj\Debug\ImageVerifier.pdb
