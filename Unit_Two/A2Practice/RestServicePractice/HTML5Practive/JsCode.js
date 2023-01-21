@@ -12,7 +12,7 @@ function ServiceCall() {
         if (xhttp.readyState == 4 && xhttp.status == 200)
             document.sum.s.value = xhttp.responseText;
     }
-    xhttp.open("GET", "http://venus.sod.asu.edu/WSRepository/Services/WcfRestService4/Service1/add2?x=4&y=4", true);
+    xhttp.open("GET", "http://localhost:60331/Service1.svc/add2?x=4&y=5", true);
     xhttp.setRequestHeader("Content-type", "application/json");
     xhttp.send();
 }
