@@ -13,7 +13,7 @@ namespace RestServicePractice
         double PiValue();
 
         [OperationContract]
-        [WebGet(UriTemplate = "absValue? x={x}")]
+        [WebGet(UriTemplate = "absValue?x={x}")]
         int absValue(int x);
 
         [OperationContract]
