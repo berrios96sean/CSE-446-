@@ -7,14 +7,17 @@ function multiply2Nos() {
 }
 
 function ServiceCall() {
-
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
-        if (xhttp.readyState == 4 && xhttp.status == 200)
-            document.sum.s.value = xhttp.responseText;
-
-    }
-    xhttp.open("GET", "http://localhost:60331/Service1.svc/add2?x=4&y=5", true);
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+            var parser = new DOMParser();
+            var xmlDoc = parser.parseFromString(xhttp.responseText, "text/xml");
+            var result = xmlDoc.getElementsByTagName("int")[0].textContent;
+            document.sum.s.value = result;
+        }
+    };
+    xhttp.open("GET", "http://localhost:60331/Service1.svc/add2?x=" + document.sum.x.value + "&y=" + document.sum.y.value, true);
     xhttp.setRequestHeader("Content-type", "application/json");
     xhttp.send();
+
 }
