@@ -17,7 +17,7 @@ namespace RestServicePractice
         int absValue(int x);
 
         [OperationContract]
-        [WebGet(UriTemplate = "add2?x={x}&y={y}")]
+        [WebGet(UriTemplate = "add2/{x}/{y}")]
         int addition(int x, int y); 
     }
 
