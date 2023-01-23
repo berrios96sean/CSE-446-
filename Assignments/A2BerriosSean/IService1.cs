@@ -14,9 +14,11 @@ namespace A2BerriosSean
     {
 
         [OperationContract]
+        [WebGet(UriTemplate = "secretNum?lower={lower}&upper={upper}",RequestFormat =WebMessageFormat.Xml,ResponseFormat =WebMessageFormat.Xml,BodyStyle = WebMessageBodyStyle.Bare)]
         int SecretNumber(int lower, int upper);
 
         [OperationContract]
+        [WebGet(UriTemplate = "checkNum?userNum={userNum}&secretNum={secretNum}",RequestFormat =WebMessageFormat.Xml,ResponseFormat =WebMessageFormat.Xml,BodyStyle =WebMessageBodyStyle.Bare)]
         string checkNumber(int userNum, int secretNum);
 
         // TODO: Add your service operations here
