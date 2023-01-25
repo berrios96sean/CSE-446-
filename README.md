@@ -7,7 +7,8 @@
 
 
 ## Modules 
-* [Unit One](https://github.com/berrios96sean/CSE-446-/tree/main/Unit_One)
+* [Assignments](https://github.com/berrios96sean/CSE-446-/tree/main/Assignments)<br/>
+* [Unit One](https://github.com/berrios96sean/CSE-446-/tree/main/Unit_One)<br/>
 
 ## Assignments 
 * [Assignment One](https://github.com/berrios96sean/CSE-446-/tree/main/Unit_One/A_One_Berrios_Sean)<br/>
