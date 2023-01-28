@@ -2,19 +2,22 @@
 function genSecNum() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
-        if (xhttp.readyState == 4 && xhttp.status = 200 ) {
+        if (xhttp.readyState == 4 && xhttp.status == 200 ) {
             var parser = new DOMParser();
             var xmlDoc = parser.parseFromString(xhttp.responseText, "text/html");
             var result = xmlDoc.getElementsByTagName("int")[0].textContent;
-            secNum = result; 
+            console.log(result);
+            secNum = result;
+            document.game.upperLimit.value = secNum;
         }
-    }
+    };
 
-    xhttp.open("GET", "http://localhost:60331/Service1.svc/add2?x=" + document.sum.x.value + "&y=" + document.sum.y.value, true);
+    xhttp.open("GET", "http://localhost:50719/Service1.svc/secretNum?lower=1&upper=10", true);
     xhttp.setRequestHeader("Content-type", "application/json");
     xhttp.send();
+   
 }
 
-function playGam() {
+function playGame() {
 
 }
