@@ -1,3 +1,4 @@
+// Testing for Virtual Machine 
 1. Download .zip file from canvas 
 2. Extract .zip 'A2BerriosSean' in Downloads folder 
 3. Open Visual Studio as an Administrator
@@ -19,3 +20,5 @@ NOTE: in order for this to work the index.html file needs to be open in a
 12. Screenshots of succesfull web app below 
 13. Selecting Generate Secret Number will set attempts to 0 
 14. After making a guess and pressing play game attempts will increment and result will change 
+
+// Testing for Local Machine 
