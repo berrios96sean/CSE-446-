@@ -22,3 +22,24 @@ NOTE: in order for this to work the index.html file needs to be open in a
 14. After making a guess and pressing play game attempts will increment and result will change 
 
 // Testing for Local Machine 
+1. Download .zip file from canvas 
+2. Extract .zip 'A2BerriosSean' in Downloads folder 
+3. Open Visual Studio as an Administrator
+4. Select 'open a project or solution' 
+5. Navigate to the downloads folder and open A2BerriosSean.sln 
+6. Two pop up windows will show up press okay for both 
+7. build solution output for build should like as follows. 
+8. right click service1.svs and open in web browser
+9. right click webAppHTML5Client and set as startup project
+10. right click index.html and open in web browser 
+NOTE: in order for this to work the index.html file needs to be open in a 
+      web browser that has security features turned off. 
+    - To add browser config, right click index.html and select browse with 
+    - select add in the pop-up window 
+    - find chrome.exe in C:/Program Files/Google/chrome
+    - past this in the arguments text box --user-data-dir="C:/Chrome dev session" --disable-web-security 
+    - set the name as Chrome NS 
+11. After adding non secure web browser, you will be able to call the RESTful calls in the web application
+12. Screenshots of succesfull web app below 
+13. Selecting Generate Secret Number will set attempts to 0 
+14. After making a guess and pressing play game attempts will increment and result will change 
