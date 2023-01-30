@@ -17,3 +17,5 @@ NOTE: in order for this to work the index.html file needs to be open in a
     - set the name as Chrome NS 
 11. After adding non secure web browser, you will be able to call the RESTful calls in the web application
 12. Screenshots of succesfull web app below 
+13. Selecting Generate Secret Number will set attempts to 0 
+14. After making a guess and pressing play game attempts will increment and result will change 
