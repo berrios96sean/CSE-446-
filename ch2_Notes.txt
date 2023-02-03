@@ -1,1 +1,5 @@
+// 7.4 
+
+ASP. Net Framework has issues with its view state and with other development platforms 
+ASP .Net Core fixes these issues and starts its root from web technologies insteas of object oriented technologies and it can be run on cross platform environments. 
 
