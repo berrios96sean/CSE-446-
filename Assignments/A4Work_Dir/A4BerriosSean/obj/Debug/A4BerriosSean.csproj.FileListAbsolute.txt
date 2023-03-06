@@ -1,0 +1,7 @@
+C:\Repos\CSE-446-\Assignments\A4Work_Dir\A4BerriosSean\obj\Debug\A4BerriosSean.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Assignments\A4Work_Dir\A4BerriosSean\obj\Debug\A4BerriosSean.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Assignments\A4Work_Dir\A4BerriosSean\bin\A4BerriosSean.dll.config
+C:\Repos\CSE-446-\Assignments\A4Work_Dir\A4BerriosSean\bin\A4BerriosSean.dll
+C:\Repos\CSE-446-\Assignments\A4Work_Dir\A4BerriosSean\bin\A4BerriosSean.pdb
+C:\Repos\CSE-446-\Assignments\A4Work_Dir\A4BerriosSean\obj\Debug\A4BerriosSean.dll
+C:\Repos\CSE-446-\Assignments\A4Work_Dir\A4BerriosSean\obj\Debug\A4BerriosSean.pdb

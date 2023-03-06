@@ -13,14 +13,80 @@ namespace A4BerriosSean
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-        void SendMessage(string senderID, string recID, string msg)
-        {
 
+        // Create message cache using Dictionary to store Messages 
+        private Dictionary<string, List<Message>> messageCache = new Dictionary<string, List<Message>>(); 
+
+        public void SendMessage(string senderID, string recID, string msg)
+        {
+            Message message = new Message(senderID, recID, msg, DateTime.UtcNow);
+
+            if (messageCache.ContainsKey(recID) == false)
+            {
+                messageCache.Add(recID, new List<Message>());
+            }
+
+            messageCache[recID].Add(message);
+
+            createXml(); 
         }
 
-        string[] ReceiveMessage(string recID, bool purge)
+        public string[] ReceiveMessage(string recID, bool purge)
         {
+            if (messageCache.ContainsKey(recID) == false)
+            {
+                return null; 
+            }
 
+            List<Message> msg = messageCache[recID];
+            List<string> msgNotRec = new List<string>(); 
+
+            foreach (Message m in msg)
+            {
+                if (m.isReceived == false)
+                {
+                    msgNotRec.Add(String.Format("{0} [{1}]: {2}", m.getSenderID(), m.getTimestamp(), m.getText()));
+                    m.isReceived = true; 
+                }
+            }
+
+            if (purge)
+            {
+                messageCache.Remove(recID);
+                createXml(); 
+            }
+
+            return msgNotRec.ToArray(); 
         }
+
+        #region Helper Methods
+        public void createXml()
+        {
+            XDocument xd = new XDocument(new XElement("messages"));
+
+            // Get messages from message Cache and create an XML File 
+            foreach (KeyValuePair<string,List<Message>> pair in messageCache)
+            {
+
+                string recID = pair.Key;
+                List<Message> m = pair.Value;
+
+                XElement rElement = new XElement("rec", new XAttribute("ID", recID));
+
+                foreach (Message msg in m)
+                {
+                    XElement mElement = new XElement("message",
+                        new XElement("senderID", msg.senderID),
+                        new XElement("msg", msg.text),
+                        new XElement("timestamp", msg.timestamp));
+
+                    rElement.Add(mElement);
+                }
+                xd.Root.Add(rElement);
+            }
+            xd.Save("msg.xml");
+        }
+
+        #endregion
     }
 }
