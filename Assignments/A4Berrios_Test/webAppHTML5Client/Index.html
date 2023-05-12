@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <script src="./jsCode.js"></script>
+    <title>HTML5 Client App </title>
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1> Welcome To Messaging Service </h1>
+        <label>Receiver ID </label> <input id="receiverID" type="text" name="receiverID" size=5 maxlength="20" /> <br />
+        <br />
+        <label>Sender ID </label> <input id="senderID" type="text" name="senderID" size=5 maxlength="20" /> <br />
+        <br />
+        <label for="sentmessage" style="display:block">Message</label><br />
+        <div class="scrollable-label">
+            <textarea id="sentmessage" name="sentmessage" rows="10" cols="50"></textarea>
+        </div>
+        <br />
+        <input type="button" value=" Send Message " name="sendMessage" onclick="sendMessage()"  /> <br />
+        <br />
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function sendMessage() {
+            var senderID = $('#senderID').val();
+            var recID = $('#receiverID').val();
+            var message = $('#sentmessage').val(); 
+           // var recId = document.receiverID.value;
+           // var senderID = document.receiver.senderID.value;
+           // var message = document.receiver.sentmessage.value;
+            attempts = 0;
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (xhttp.readyState == 4) {
+                    if (xhttp.status == 200) {
+                        console.log("Message Sent Successfully");
+                    }
+                    else {
+                        console.log("Message not sent");
+                    }
+                }
+            };
+            xhttp.open("GET", "http://localhost:50719/Service1.svc/SendMessage/" + senderID + "/" + recID + "/" + message, true);
+            xhttp.setRequestHeader("Content-type", "application/xml");
+            xhttp.send();
+        }
+    </script>
+</body>
+</html>

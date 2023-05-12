@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <script src="./jsCode.js"></script>
+    <title>HTML5 Client App </title>
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1> Welcome To Messaging Service </h1>
+        <label>Receiver ID </label> <input id="receiverID" type="text" name="receiverID" size=5 maxlength="20" /> <br />
+        <br />
+        <label>Purge </label> <input id="purge" type="text" name="purge" size=5 maxlength="20" /> <br />
+        <br />
+        <input type="button" value=" Receice Message " name="recMessage" onclick="recMessage()" /> <br />
+        <br />
+        <label for="message" style="display:block">Received Message</label><br />
+        <div class="scrollable-label">
+            <textarea id="message" name="message" rows="10" cols="50"></textarea>
+        </div>
+        <br />
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function recMessage() {
+            var recID = $('#receiverID').val();
+            var purge = $('#purge').val();
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (xhttp.readyState == 4) {
+                    if (xhttp.status == 200) {
+                        var xmlDoc = xhttp.responseXML;
+                        var msg = xmlDoc.getElementsByTagName("string");
+                        var msgText = "";
+
+                        for (var i = 0; i < msg.length; i++) {
+                            msgText += msg[i].textContent + "\n";
+                        }
+
+                        document.getElementById("message").value = msgText;
+                    }
+                    else {
+                        console.log("Message not Received - status: " + xhttp.statusText);
+                    }
+                }
+            };
+
+            xhttp.open("GET", "http://localhost:50719/Service1.svc/ReceiveMessage/" + recID + "/" + purge, true);
+            xhttp.setRequestHeader("Content-type", "application/xml");
+            xhttp.send(); 
+        }
+    </script>
+
+</body>
+</html>

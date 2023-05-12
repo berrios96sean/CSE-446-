@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <rec ID="Sean">
+    <message>
+      <senderID>Bob</senderID>
+      <msg>Hello</msg>
+      <timestamp>2023-03-06T07:45:54.9835948Z</timestamp>
+    </message>
+  </rec>
+  <rec ID="Sean">
+    <message>
+      <senderID>Bob</senderID>
+      <msg>yo</msg>
+      <timestamp>2023-03-06T07:46:21.9844198Z</timestamp>
+    </message>
+  </rec>
+  <rec ID="Bob">
+    <message>
+      <senderID>Sean</senderID>
+      <msg>yo</msg>
+      <timestamp>2023-03-06T07:47:56.470398Z</timestamp>
+    </message>
+  </rec>
+</messages>

@@ -1,0 +1,14 @@
+C:\Repos\CSE-446-\Assignments\A2BerriosSean\bin\A2BerriosSean.dll.config
+C:\Repos\CSE-446-\Assignments\A2BerriosSean\bin\A2BerriosSean.dll
+C:\Repos\CSE-446-\Assignments\A2BerriosSean\bin\A2BerriosSean.pdb
+C:\Repos\CSE-446-\Assignments\A2BerriosSean\obj\Debug\A2BerriosSean.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Assignments\A2BerriosSean\obj\Debug\A2BerriosSean.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Assignments\A2BerriosSean\obj\Debug\A2BerriosSean.dll
+C:\Repos\CSE-446-\Assignments\A2BerriosSean\obj\Debug\A2BerriosSean.pdb
+C:\Repos\CSE-446-\Assignments\A4Berrios_Test\bin\A2BerriosSean.dll.config
+C:\Repos\CSE-446-\Assignments\A4Berrios_Test\bin\A2BerriosSean.dll
+C:\Repos\CSE-446-\Assignments\A4Berrios_Test\bin\A2BerriosSean.pdb
+C:\Repos\CSE-446-\Assignments\A4Berrios_Test\obj\Debug\A2BerriosSean.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Assignments\A4Berrios_Test\obj\Debug\A2BerriosSean.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Assignments\A4Berrios_Test\obj\Debug\A2BerriosSean.dll
+C:\Repos\CSE-446-\Assignments\A4Berrios_Test\obj\Debug\A2BerriosSean.pdb
