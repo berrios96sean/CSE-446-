@@ -1,0 +1,7 @@
+C:\Repos\CSE-446-\Assignments\a7BerriosSean\bin\Debug\a7BerriosSean.exe.config
+C:\Repos\CSE-446-\Assignments\a7BerriosSean\bin\Debug\a7BerriosSean.exe
+C:\Repos\CSE-446-\Assignments\a7BerriosSean\bin\Debug\a7BerriosSean.pdb
+C:\Repos\CSE-446-\Assignments\a7BerriosSean\obj\Debug\a7BerriosSean.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Assignments\a7BerriosSean\obj\Debug\a7BerriosSean.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Assignments\a7BerriosSean\obj\Debug\a7BerriosSean.exe
+C:\Repos\CSE-446-\Assignments\a7BerriosSean\obj\Debug\a7BerriosSean.pdb

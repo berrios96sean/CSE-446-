@@ -1,0 +1,4 @@
+I was not able to get the emulator working. However, i was able to successfully run my app
+Via my phone. 
+
+I will provide screenshots in a screenshots folder. 

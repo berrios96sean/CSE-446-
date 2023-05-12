@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A8_Berrios_Sean", "A8_Berrios_Sean.csproj", "{12B7472F-5666-442E-A8EB-2214C8140043}"
+	ProjectSection(ProjectDependencies) = postProject
+		{227F69D6-57AA-4ED9-89B7-80B0B39CB5FB} = {227F69D6-57AA-4ED9-89B7-80B0B39CB5FB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A8_Services", "A8_Services\A8_Services.csproj", "{227F69D6-57AA-4ED9-89B7-80B0B39CB5FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B7472F-5666-442E-A8EB-2214C8140043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B7472F-5666-442E-A8EB-2214C8140043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B7472F-5666-442E-A8EB-2214C8140043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B7472F-5666-442E-A8EB-2214C8140043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{227F69D6-57AA-4ED9-89B7-80B0B39CB5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227F69D6-57AA-4ED9-89B7-80B0B39CB5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227F69D6-57AA-4ED9-89B7-80B0B39CB5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227F69D6-57AA-4ED9-89B7-80B0B39CB5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B088188-C771-430A-A4C2-E15FFAB44DA4}
+	EndGlobalSection
+EndGlobal

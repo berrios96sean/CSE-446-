@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="A6_berrios_sean_maui.MainPage">
+
+        <StackLayout>
+        <Label FontSize="24" FontAttributes="Bold">Enter Text For Encryptying</Label>
+        <Entry x:Name="EncryptEntry" Placeholder="Enter Text Here" />
+        <Label x:Name="EncryptLabel" Text="Encrypted Text"/>
+        <Button x:Name="EncryptButton" Text="Encrypt"  Clicked="EncryptButton_Clicked"></Button>
+        <Label FontSize="24" Text="Encrypted Text for Decrypting"></Label>
+        <Entry x:Name="DecryptEntry"/>
+        <Label x:Name="DecryptLabel" Text="Decrypted Text"/>
+        <Button x:Name="DecryptButton" Text="Decrypt" Clicked="DecryptButton_Clicked"/>
+
+    </StackLayout>
+
+ 
+
+</ContentPage>

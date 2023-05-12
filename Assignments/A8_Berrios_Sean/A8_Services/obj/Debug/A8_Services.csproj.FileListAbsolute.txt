@@ -1,0 +1,10 @@
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\bin\A8_Services.dll.config
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\bin\A8_Services.dll
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\bin\A8_Services.pdb
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\bin\Newtonsoft.Json.dll
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\bin\Newtonsoft.Json.xml
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\obj\Debug\A8_Services.csproj.AssemblyReference.cache
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\obj\Debug\A8_Services.csproj.CoreCompileInputs.cache
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\obj\Debug\A8_Services.csproj.CopyComplete
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\obj\Debug\A8_Services.dll
+C:\Repos\CSE-446-\Assignments\A8_Berrios_Sean\A8_Services\obj\Debug\A8_Services.pdb
